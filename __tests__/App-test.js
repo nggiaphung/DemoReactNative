@@ -12,3 +12,11 @@ import renderer from 'react-test-renderer';
 it('renders correctly', () => {
   renderer.create(<App />);
 });
+export default function App(){
+  return(
+      <View style={style.container}>
+          <Text>Hello word</Text>
+          <StatusBar style="auto"/>
+      </View>
+  )
+}
